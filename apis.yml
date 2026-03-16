@@ -1,0 +1,44 @@
+aid: confidential-computing-consortium
+name: Confidential Computing Consortium
+description: >-
+  The Confidential Computing Consortium (CCC) is a Linux Foundation project that brings together hardware vendors, cloud providers, and software developers to accelerate the adoption of confidential computing. It protects data in use via hardware-based trusted execution environments (TEEs).
+type: Index
+position: Consumer
+access: 3rd-Party
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Security
+  - Privacy
+  - Hardware
+  - Linux Foundation
+created: '2026-03-16'
+modified: '2026-03-16'
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/confidential-computing-consortium/refs/heads/main/apis.yml
+specificationVersion: '0.19'
+apis:
+  - aid: confidential-computing-consortium:confidential-computing-consortium-api
+    name: Confidential Computing Consortium API
+    description: >-
+      Programmatic access to Confidential Computing Consortium resources, TEE tools, and data-in-use protection APIs.
+    humanURL: https://confidentialcomputing.io/resources/
+    tags:
+  - Security
+  - Privacy
+  - Hardware
+  - Linux Foundation
+    properties:
+      - type: Documentation
+        url: https://confidentialcomputing.io/resources/
+common:
+  - type: Documentation
+    name: Confidential Computing Consortium Documentation
+    description: Official documentation for Confidential Computing Consortium.
+    url: https://confidentialcomputing.io/resources/
+  - type: GitHubOrg
+    name: Confidential Computing Consortium GitHub
+    description: Source code and repositories for Confidential Computing Consortium.
+    url: https://github.com/confidential-computing
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
