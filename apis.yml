@@ -23,10 +23,10 @@ apis:
       Programmatic access to Confidential Computing Consortium resources, TEE tools, and data-in-use protection APIs.
     humanURL: https://confidentialcomputing.io/resources/
     tags:
-  - Security
-  - Privacy
-  - Hardware
-  - Linux Foundation
+      - Security
+      - Privacy
+      - Hardware
+      - Linux Foundation
     properties:
       - type: Documentation
         url: https://confidentialcomputing.io/resources/
