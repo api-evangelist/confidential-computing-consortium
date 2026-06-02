@@ -2,12 +2,20 @@
   "repo": "confidential-computing-consortium",
   "feeds": [
     {
-      "source": "https://confidentialcomputing.io/news/",
+      "source": "https://confidentialcomputing.io/news/feed/",
       "feed_url": "https://confidentialcomputing.io/news/feed/",
-      "title": "Comments on: Above Footer",
-      "saved": 0
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://lists.confidentialcomputing.io/",
+      "feed_url": "https://lists.confidentialcomputing.io/g/main/rss",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
     }
   ],
   "post_count": 10,
-  "fetched": "2026-05-17T20:20:35Z"
+  "fetched": "2026-06-01T23:35:02Z"
 }
