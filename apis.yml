@@ -12,7 +12,7 @@ description: >-
 type: Index
 position: Consumer
 access: 3rd-Party
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: >-
   https://raw.githubusercontent.com/api-evangelist/confidential-computing-consortium/refs/heads/main/apis.yml
 created: '2026-03-16'
@@ -41,7 +41,7 @@ apis:
       implementations rather than a single REST API.
     humanURL: https://confidentialcomputing.io/projects/
     baseURL: https://confidentialcomputing.io/projects/
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     tags:
       - Attestation
       - Confidential Computing
@@ -75,7 +75,7 @@ apis:
       providing the foundation for attested, portable workload identity.
     humanURL: https://github.com/confidential-computing/twi
     baseURL: https://github.com/confidential-computing/twi
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     tags:
       - Attestation
       - IETF
