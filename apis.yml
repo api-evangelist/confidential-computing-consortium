@@ -99,6 +99,8 @@ apis:
       - Bind workload identity to hardware attestation
       - Interoperate across cloud providers and hardware vendors
 common:
+  - type: DomainSecurity
+    url: security/confidential-computing-consortium-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/confidential-computing
   - type: Website
