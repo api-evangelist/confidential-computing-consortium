@@ -36,6 +36,16 @@ tags:
   - Confidential Computing
   - Hardware
   - Linux Foundation
+  - Open-Source
+  - Privacy
+  - Security
+  - TEE
+  - Trusted Execution Environment
+tags_raw:
+  - Attestation
+  - Confidential Computing
+  - Hardware
+  - Linux Foundation
   - Open Source
   - Privacy
   - Security
@@ -55,6 +65,11 @@ apis:
     baseURL: https://confidentialcomputing.io/projects/
     image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     tags:
+      - Attestation
+      - Confidential Computing
+      - Open-Source
+      - TEE
+    tags_raw:
       - Attestation
       - Confidential Computing
       - Open Source
