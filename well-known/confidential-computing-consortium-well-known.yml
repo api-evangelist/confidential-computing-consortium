@@ -1,0 +1,125 @@
+generated: '2026-09-05'
+method: probed
+source: live GET probes of the named /.well-known/ path list on every host this record knows
+notes: >-
+  The CCC website (WordPress on Pantheon) serves a real RFC 9727 api-catalog linkset at
+  /.well-known/api-catalog on both confidentialcomputing.io and www.confidentialcomputing.io.
+  The linkset's service-desc points at the site's own WordPress REST API index
+  (https://confidentialcomputing.io/wp-json/), which was probed live and returned HTTP 200 with
+  128 routes across 16 namespaces (wp/v2, tribe/events/v1, tec/v1, wp-abilities/v1 and others),
+  anonymous read access, and application-passwords as the declared authentication mechanism.
+  That index is a WordPress-generated discovery document, not an OpenAPI, and no OpenAPI was
+  found anywhere on the estate. A 301 -> 404 on /projects/ and 404s on the rest of the
+  /.well-known/ list are recorded below as measured. The lists.confidentialcomputing.io host
+  (Groups.io-style mailing list front end) 404s every path with a 19-byte plain-text body.
+  landscape.confidentialcomputing.io does not resolve (NXDOMAIN) and is therefore not listed.
+  github.com hosts named as baseURLs are GitHub's, not the provider's, so they are not probed here.
+path_echo_control: passed
+hit_count: 1
+hosts:
+  - host: https://confidentialcomputing.io
+    documents:
+      - path: /.well-known/api-catalog
+        status: 200
+        file: confidential-computing-consortium-api-catalog.json
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/oauth-protected-resource
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /.well-known/apis.json
+        status: 404
+      - path: /apis.json
+        status: 404
+      - path: /apis.yml
+        status: 404
+      - path: /.well-known/agent-card.json
+        status: 404
+      - path: /.well-known/agent.json
+        status: 404
+      - path: /.well-known/aauth-resource.json
+        status: 404
+      - path: /.well-known/confidential-computing-consortium-negative-control-7f3ab91c.json
+        status: 404
+        note: negative control — a 404 here confirms the host is not path-echoing
+  - host: https://www.confidentialcomputing.io
+    documents:
+      - path: /.well-known/api-catalog
+        status: 200
+        note: same document as the apex host; saved once under the apex entry
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/oauth-protected-resource
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /.well-known/apis.json
+        status: 404
+      - path: /apis.json
+        status: 404
+      - path: /apis.yml
+        status: 404
+      - path: /.well-known/agent-card.json
+        status: 404
+      - path: /.well-known/agent.json
+        status: 404
+      - path: /.well-known/aauth-resource.json
+        status: 404
+      - path: /.well-known/confidential-computing-consortium-negative-control-7f3ab91c.json
+        status: 404
+  - host: https://lists.confidentialcomputing.io
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/oauth-protected-resource
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /.well-known/apis.json
+        status: 404
+      - path: /apis.json
+        status: 404
+      - path: /apis.yml
+        status: 404
+      - path: /.well-known/agent-card.json
+        status: 404
+      - path: /.well-known/agent.json
+        status: 404
+      - path: /.well-known/aauth-resource.json
+        status: 404
+      - path: /.well-known/confidential-computing-consortium-negative-control-7f3ab91c.json
+        status: 404
+related:
+  - kind: robots.txt
+    url: https://confidentialcomputing.io/robots.txt
+    status: 200
+    file: confidential-computing-consortium-robots.txt
+    note: >-
+      Carries an explicit Content-Signal directive — "Content-Signal: ai-train=yes, search=yes,
+      ai-input=yes" — a published agent/AI consent declaration, permissive on all three signals.
+  - kind: llms.txt
+    url: https://confidentialcomputing.io/llms.txt
+    status: 200
+    file: ../llms/confidential-computing-consortium-llms.txt
+  - kind: service-desc named by the api-catalog linkset
+    url: https://confidentialcomputing.io/wp-json/
+    status: 200
+    note: WordPress REST API index, 128 routes / 16 namespaces, anonymous read. Not an OpenAPI.
+  - kind: sitemap
+    url: https://confidentialcomputing.io/wp-sitemap.xml
+    status: 200

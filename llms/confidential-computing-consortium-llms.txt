@@ -1,0 +1,64 @@
+# Confidential Computing Consortium
+> Linux Foundation Project
+
+## Posts
+- [Welcome to the August 2026 Newsletter](https://confidentialcomputing.io/2026/09/02/welcome-to-the-august-2026-newsletter/): TL;DR | What's in This Issue? EU Cyber Resilience Act Readiness: ED Mike Bursell details incoming EU CRA reporting rules and
+- [Welcome to the July 2026 Newsletter](https://confidentialcomputing.io/2026/07/31/welcome-to-the-july-2026-newsletter/): TL;DR | What's in This Issue? Executive Strategy &amp; Pillars: ED Mike Bursell shares four new Governing Board strategic focus areas
+- [$91,000 in Grants: How New University Research is Pushing the Boundaries of Confidential Computing](https://confidentialcomputing.io/2026/07/29/91000-in-grants-how-new-university-research-is-pushing-the-boundaries-of-confidential-computing/): When it comes to processing sensitive data in the cloud, Confidential Computing has become the gold standard. By keeping data
+- [Confidential Computing Summit 2026: Six Signals From the Year the Foundation Got Real](https://confidentialcomputing.io/2026/07/02/confidential-computing-summit-2026-six-signals-from-the-year-the-foundation-got-real/): Across two days and dozens of sessions, the same conclusion surfaced from cloud providers, silicon vendors, a frontier AI lab,
+- [Welcome to the June 2026 Newsletter](https://confidentialcomputing.io/2026/06/29/welcome-to-the-june-2026-newsletter/): TL;DR | What's in This Issue? The redesigned CCC website launched June 23rd! 🎉 Confidential Computing Summit 2026 wrapped in
+
+## Pages
+- [Leadership](https://confidentialcomputing.io/leadership/)
+- [Home](https://confidentialcomputing.io/): Data is only as safe as how it's being processed Confidential Computing protects data while it’s in use — Closing
+- [Research Fund](https://confidentialcomputing.io/resources/research-fund/): Overview The Confidential Computing Consortium (CCC) call for research proposals on Confidential Computing is now closed. We are no longer
+- [Members](https://confidentialcomputing.io/members/)
+- [Committees](https://confidentialcomputing.io/committees/): The Governing Board is responsible for the oversight of the CCC and its budget. It oversees all activities of other
+
+## Webinars
+- [Intel Principal Engineer and CCC Advisory Chair Discuss Enhancing the Confidential Computing Ecosystem’s Value and Impact](https://confidentialcomputing.io/webinars/intel-principal-engineer-and-ccc-advisory-chair-discuss-enhancing-the-confidential-computing-ecosystems-value-and-impact/)
+- [Confidential Computing at Identiverse: The Internet’s missing cryptography engine with @trustauthor](https://confidentialcomputing.io/webinars/confidential-computing-at-identiverse-the-internets-missing-cryptography-engine-with-trustauthor/)
+- [PET Summit Webinar May 15, 2024: Enabling A Greater Data Economy Through Confidential Computing](https://confidentialcomputing.io/webinars/pet-summit-webinar-may-15-2024-enabling-a-greater-data-economy-through-confidential-computing/)
+- [Confidential Computing in genomics: GENXT Cross-Database DNA Matching](https://confidentialcomputing.io/webinars/confidential-computing-in-genomics-genxt-cross-database-dna-matching/)
+- [Fireside Chat: Trust in Computer Systems and the Cloud](https://confidentialcomputing.io/webinars/fireside-chat-trust-in-computer-systems-and-the-cloud/)
+
+## Members
+- [EAGLYS](https://confidentialcomputing.io/members/eaglys/)
+- [Shielded Technologies](https://confidentialcomputing.io/members/shielded-technologies/)
+- [UCLA Trustworthy AI Lab](https://confidentialcomputing.io/members/ucla-trustworthy-ai-lab/)
+- [Beijing Xiaomi Mobile Software Co., Ltd](https://confidentialcomputing.io/members/beijing-xiaomi-mobile-software-co-ltd/)
+- [enclaive](https://confidentialcomputing.io/members/enclaive/)
+
+## Venues
+- [San Francisco Mint](https://confidentialcomputing.io/venue/san-francisco-mint/)
+- [Hilton Canopy San Francisco SOMA](https://confidentialcomputing.io/venue/hilton-canopy-san-francisco-soma/)
+- [Santa Clara Convention Center](https://confidentialcomputing.io/venue/santa-clara-convention-center/)
+- [Colorado Convention Center](https://confidentialcomputing.io/venue/colorado-convention-center/)
+- [Bedford Hotel & Congress Centre](https://confidentialcomputing.io/venue/bedford-hotel-congress-centre/)
+
+## Organizers
+- [Toranomon Hills Forum](https://confidentialcomputing.io/organizer/toranomon-hills-forum/)
+- [RSA](https://confidentialcomputing.io/organizer/rsa/)
+
+## Categories
+- [Blog](https://confidentialcomputing.io/category/blog/)
+- [Newsletter](https://confidentialcomputing.io/category/newsletter/)
+- [Announcement](https://confidentialcomputing.io/category/announcement/)
+- [In The News](https://confidentialcomputing.io/category/in-the-news/)
+- [Uncategorized](https://confidentialcomputing.io/category/uncategorized/)
+
+## Tags
+- [#ConfidentialComputing #CybersecurityEvolution #TechJourney](https://confidentialcomputing.io/tag/confidentialcomputing-cybersecurityevolution-techjourney/)
+- [CCC](https://confidentialcomputing.io/tag/ccc/)
+- [Confidential Computing](https://confidentialcomputing.io/tag/confidential-computing/)
+- [Confidential Computing Consortium](https://confidentialcomputing.io/tag/confidential-computing-consortium/)
+- [#mentorship](https://confidentialcomputing.io/tag/mentorship/)
+
+## Members Categories
+- [General](https://confidentialcomputing.io/members_category/general/)
+- [Premier](https://confidentialcomputing.io/members_category/premier/)
+- [Associate](https://confidentialcomputing.io/members_category/associate/)
+- [Start Up](https://confidentialcomputing.io/members_category/start-up/)
+
+## Optional
+- [Sitemap index](https://confidentialcomputing.io/wp-sitemap.xml)

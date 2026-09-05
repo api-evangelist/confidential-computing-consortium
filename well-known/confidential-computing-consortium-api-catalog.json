@@ -1,0 +1,22 @@
+{
+    "linkset": [
+        {
+            "anchor": "https://confidentialcomputing.io/wp-json/",
+            "service-desc": [
+                {
+                    "href": "https://confidentialcomputing.io/wp-json/"
+                }
+            ],
+            "service-doc": [
+                {
+                    "href": "https://developer.wordpress.org/rest-api/"
+                }
+            ],
+            "status": [
+                {
+                    "href": "https://confidentialcomputing.io"
+                }
+            ]
+        }
+    ]
+}

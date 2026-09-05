@@ -39,7 +39,7 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/confidenti
 url: >-
   https://raw.githubusercontent.com/api-evangelist/confidential-computing-consortium/refs/heads/main/apis.yml
 created: '2026-03-16'
-modified: '2026-04-28'
+modified: '2026-09-05'
 specificationVersion: '0.23'
 kind: opensource
 tags:
@@ -72,8 +72,8 @@ apis:
       for confidential computing across CPU, GPU, and accelerator vendors.
       Projects include hosted SDKs, attestation services, and reference
       implementations rather than a single REST API.
-    humanURL: https://confidentialcomputing.io/projects/
-    baseURL: https://confidentialcomputing.io/projects/
+    humanURL: https://confidentialcomputing.io/#projects
+    baseURL: https://confidentialcomputing.io/#projects
     image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     tags:
       - Attestation
@@ -87,9 +87,13 @@ apis:
       - TEE
     properties:
       - type: Documentation
-        url: https://confidentialcomputing.io/projects/
+        url: https://github.com/confidential-computing/governance/tree/main/Projects
       - type: GitHub
         url: https://github.com/confidential-computing
+      - type: GitHubOrganization
+        url: https://github.com/confidential-computing
+      - type: Partners
+        url: https://ccc.landscape2.io/
     x-features:
       - TEE Runtimes
       - Remote Attestation
@@ -144,23 +148,64 @@ common:
   - type: Website
     url: https://confidentialcomputing.io/
   - type: Documentation
-    url: https://confidentialcomputing.io/resources/
+    url: https://confidentialcomputing.io/resources/white-papers-reports/
   - type: Projects
-    url: https://confidentialcomputing.io/projects/
+    url: https://confidentialcomputing.io/#projects
   - type: GitHub
     url: https://github.com/confidential-computing
   - type: Glossary
     url: https://github.com/confidential-computing/glossary
+  - type: Vocabulary
+    url: vocabulary/confidential-computing-consortium-vocabulary.yml
   - type: Governance
     url: https://github.com/confidential-computing/governance
   - type: Mailing Lists
     url: https://lists.confidentialcomputing.io/
   - type: Blog
-    url: https://confidentialcomputing.io/news/
+    url: https://confidentialcomputing.io/blog/
+  - type: Newsroom
+    url: https://confidentialcomputing.io/resources/newsroom/
   - type: Events
     url: https://confidentialcomputing.io/events/
   - type: Membership
-    url: https://confidentialcomputing.io/membership/
+    url: https://confidentialcomputing.io/join/
+  - type: GitHubOrganization
+    url: https://github.com/confidential-computing
+  - type: Support
+    url: https://confidentialcomputing.io/get-involved/contact-us/
+  - type: Newsletter
+    url: https://confidentialcomputing.io/get-involved/newsletter/
+  - type: About
+    url: https://confidentialcomputing.io/about/leadership/
+  - type: Community
+    url: https://confidentialcomputing.io/committees/
+  - type: Pricing
+    url: https://confidentialcomputing.io/join/
+  - type: SignUp
+    url: https://confidentialcomputing.io/join/
+  - type: TermsOfService
+    url: https://www.linuxfoundation.org/legal/terms
+  - type: PrivacyPolicy
+    url: https://www.linuxfoundation.org/legal/privacy-policy
+  - type: WellKnown
+    url: well-known/confidential-computing-consortium-well-known.yml
+  - type: APICatalog
+    url: well-known/confidential-computing-consortium-api-catalog.json
+  - type: ContentSignal
+    url: https://confidentialcomputing.io/robots.txt
+  - type: LLMsTxt
+    url: llms/confidential-computing-consortium-llms.txt
+  - type: Conformance
+    url: conformance/confidential-computing-consortium-conformance.yml
+  - type: Plans
+    url: plans/confidential-computing-consortium-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/confidential-computing-consortium-rate-limits.yml
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
+x-enrichment:
+  date: '2026-09-05'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v3

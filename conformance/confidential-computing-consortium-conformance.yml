@@ -1,0 +1,82 @@
+generated: '2026-09-05'
+method: probed
+source: >-
+  live probes of confidentialcomputing.io (2026-09-05) plus the CCC public site and GitHub
+  organization; no OpenAPI, GraphQL, gRPC, WSDL or AsyncAPI contract was found on any host
+standards:
+  - id: rfc9727-api-catalog
+    name: RFC 9727 API Catalog (/.well-known/api-catalog linkset)
+    conforms: true
+    evidence: https://confidentialcomputing.io/.well-known/api-catalog returned HTTP 200 with a
+      valid linkset[] carrying anchor, service-desc, service-doc and status links
+  - id: llms-txt
+    name: llms.txt
+    conforms: true
+    evidence: https://confidentialcomputing.io/llms.txt returned HTTP 200, 5,759 bytes, valid
+      llms.txt structure (H1, blockquote summary, sectioned link lists)
+  - id: content-signal
+    name: Content Signal (robots.txt AI-usage declaration)
+    conforms: true
+    evidence: 'https://confidentialcomputing.io/robots.txt line 2: "Content-Signal: ai-train=yes,
+      search=yes, ai-input=yes"'
+  - id: sitemaps-org
+    name: sitemaps.org XML sitemap
+    conforms: true
+    evidence: https://confidentialcomputing.io/wp-sitemap.xml returned HTTP 200 sitemapindex
+  - id: openapi
+    name: OpenAPI / Swagger
+    conforms: false
+    evidence: 404 on /openapi.json, /openapi.yaml, /swagger.json, /api-docs on the apex and www
+      hosts; no spec in any of the 10 repos in github.com/confidential-computing
+  - id: asyncapi
+    name: AsyncAPI
+    conforms: false
+    evidence: no event, streaming or webhook surface published by the consortium
+  - id: graphql
+    name: GraphQL
+    conforms: false
+    evidence: no /graphql surface on any known host
+  - id: oauth2
+    name: OAuth 2.0
+    conforms: false
+    evidence: 404 on /.well-known/oauth-authorization-server and /.well-known/oauth-protected-resource
+  - id: oidc
+    name: OpenID Connect
+    conforms: false
+    evidence: 404 on /.well-known/openid-configuration
+  - id: a2a-agent-card
+    name: A2A Agent Card
+    conforms: false
+    evidence: 404 on /.well-known/agent-card.json and /.well-known/agent.json on every provider host
+  - id: aauth
+    name: AAuth resource declaration
+    conforms: false
+    evidence: 404 on /.well-known/aauth-resource.json
+  - id: rfc9116-security-txt
+    name: RFC 9116 security.txt
+    conforms: false
+    evidence: 404 on /.well-known/security.txt on confidentialcomputing.io and www
+domain_standards:
+  - id: ietf-rats
+    name: IETF RATS (Remote Attestation Procedures, RFC 9334)
+    conforms: null
+    role: contributor
+    evidence: https://github.com/confidential-computing/twi-rats — CCC's Trustworthy Workload
+      Identity working group authors Internet Drafts mapping TEE attestation evidence onto the
+      IETF RATS architecture. This is standards AUTHORSHIP, not an API contract conformance claim;
+      the consortium ships no callable endpoint that implements it.
+  - id: ietf-wimse
+    name: IETF WIMSE (Workload Identity in a Multi-System Environment)
+    conforms: null
+    role: contributor
+    evidence: https://github.com/confidential-computing/twi-wimse — Internet Draft work under the
+      same CCC working group. Again authorship, not a served contract.
+notes: >-
+  The CCC is a governance body, not an API operator. Its only machine-readable HTTP surface is the
+  WordPress REST API behind its own website (https://confidentialcomputing.io/wp-json/, 128 routes,
+  advertised through the RFC 9727 api-catalog above). Its member roster is served publicly and
+  anonymously by the Linux Foundation's own LFX Project Service —
+  https://api-gw.platform.linuxfoundation.org/project-service/v1/public/projects/a092M00001IfDuzQAF/members
+  (HTTP 200, 83KB, consumed by the members carousel on the CCC homepage). That API belongs to the
+  Linux Foundation, not to the CCC, and is recorded here only as evidence of the consortium's
+  CONSUMING position; no contract from it is claimed or saved under this provider.

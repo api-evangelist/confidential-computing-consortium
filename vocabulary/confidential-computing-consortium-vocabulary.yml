@@ -1,0 +1,99 @@
+generated: '2026-09-05'
+method: searched
+source: https://github.com/confidential-computing/glossary/blob/main/glossary.md
+vocabulary:
+  name: Confidential Computing Consortium Glossary
+  description: The CCC Glossary is a community-driven resource demystifying confidential computing terminology,
+    published by the Confidential Computing Consortium in its own GitHub organization. Terms and definitions
+    below are reproduced verbatim from the consortium's glossary.md; the linked resources are the citations
+    the CCC attached to each term. The upstream repository was archived on GitHub in 2024 and remains
+    public.
+  version: '2024-06-26'
+  upstream:
+    repo: https://github.com/confidential-computing/glossary
+    file: glossary.md
+    archived: true
+    companion: https://github.com/confidential-computing/glossary/blob/main/term_specification_matrix.md
+  term_count: 11
+  terms:
+  - term: Confidential Computing
+    definition: The protection of data in use by performing computation in a hardware-based, attested
+      Trusted Execution Environment.
+    resources:
+    - label: CCC
+      url: https://confidentialcomputing.io
+  - term: Confidential Payload
+    definition: A set of code and data specifically designed to be executed within Trusted Execution Environments
+      (TEEs) while maintaining strict confidentiality and integrity.
+    resources: []
+  - term: Workload Identity
+    definition: Unique identity assigned to software workloads for authentication and access management
+      across services and resources.
+    resources:
+    - label: Microsoft Learn
+      url: https://learn.microsoft.com/en-us/entra/workload-id/workload-identities-overview
+  - term: Remote Attestation
+    definition: A process whereby a system produces information about itself (typically cryptographically-backed)
+      and another party verifies that information, allowing decisions to be made about what types of trust
+      relationships are appropriate to the first system.
+    resources:
+    - label: IETF RFC 9334
+      url: https://datatracker.ietf.org/doc/html/rfc9334
+    - label: CCC Blog
+      url: https://confidentialcomputing.io/2023/04/06/why-is-attestation-required-for-confidential-computing/
+  - term: Enclave
+    definition: A secure area of a processor chip that ensures code and data loaded inside are protected
+      from access or tampering by other software, including the operating system.
+    resources:
+    - label: CCC
+      url: https://confidentialcomputing.io/wp-content/uploads/sites/10/2023/03/CCC-A-Technical-Analysis-of-Confidential-Computing-v1.3_unlocked.pdf
+  - term: TEE (Trusted Execution Environment)
+    definition: An environment that provides a level of assurance of data confidentiality, integrity,
+      and code integrity by preventing unauthorized entities from viewing, altering, or tampering with
+      data and code in use within the TEE.
+    resources:
+    - label: CCC
+      url: https://confidentialcomputing.io/wp-content/uploads/sites/10/2023/03/CCC-A-Technical-Analysis-of-Confidential-Computing-v1.3_unlocked.pdf
+  - term: TCB (Trusted Computing Base)
+    definition: A set of components that can be known and defined, evaluated and verified by a trusting
+      party or its agents, expected to continue in the same state, and used as the foundation for other
+      services or systems. This represents the critical security components including hardware, firmware,
+      and software.
+    resources:
+    - label: Wikipedia
+      url: https://en.wikipedia.org/wiki/Trusted_computing_base
+    - label: Bursell, Mike (2021) Trust in Computer Systems and the Cloud
+      url: https://onlinelibrary.wiley.com/doi/book/10.1002/9781119695158
+    - label: NIST
+      url: https://csrc.nist.gov/glossary/term/trusted_computing_base
+    - label: Microsoft Azure
+      url: https://learn.microsoft.com/en-us/azure/confidential-computing/trusted-compute-base
+  - term: Memory Isolation
+    definition: Security feature preventing unauthorized access to data in memory.
+    resources:
+    - label: Microsoft Azure
+      url: https://learn.microsoft.com/en-us/azure/confidential-computing/choose-confidential-containers-offerings
+  - term: Measurements
+    definition: Process of assessing the state of a system or components to ensure integrity.
+    resources:
+    - label: NIST
+      url: https://csrc.nist.gov/glossary/term/roots_of_trust
+  - term: Root of Trust
+    definition: A static component in a system whereby an endorsing authority allows trustors to assume
+      trust in the system in which the anchor is contained. Trust in the root of trust is assumed, based
+      on the endorsing authority, rather than derived.
+    resources:
+    - label: Wikipedia on Trust Anchor
+      url: https://en.wikipedia.org/wiki/Trust_anchor
+    - label: Bursell, Mike (2021) Trust in Computer Systems and the Cloud
+      url: https://onlinelibrary.wiley.com/doi/book/10.1002/9781119695158
+  - term: Attestation Verification Service
+    definition: Services that verify the integrity and authenticity of attestations in secure computing
+      environments, playing a critical role in establishing trust.
+    resources:
+    - label: Azure Attestation
+      url: https://learn.microsoft.com/en-us/azure/attestation/overview
+    - label: Red Hat on Confidential Computing
+      url: https://www.redhat.com
+    - label: Veraison Project on GitHub
+      url: https://github.com/veraison
