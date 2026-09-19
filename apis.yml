@@ -121,6 +121,11 @@ apis:
     tags:
       - Attestation
       - IETF
+      - Specification
+      - Workload Identity
+    tags_raw:
+      - Attestation
+      - IETF
       - Specifications
       - Workload Identity
     properties:
