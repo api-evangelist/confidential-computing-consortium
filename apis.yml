@@ -151,6 +151,8 @@ apis:
       - Bind workload identity to hardware attestation
       - Interoperate across cloud providers and hardware vendors
 common:
+  - type: FinOps
+    url: finops/confidential-computing-consortium-finops.yml
   - type: DomainSecurity
     url: security/confidential-computing-consortium-domain-security.yml
   - type: LinkedIn
