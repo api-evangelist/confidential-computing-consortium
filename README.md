@@ -1,4 +1,4 @@
-# Confidential Computing Consortium (confidential-computing-consortium)
+# Confidential Computing Consortium
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,101 +66,108 @@
 
 The Confidential Computing Consortium (CCC) is a Linux Foundation project that brings together hardware vendors, cloud providers, and software developers to accelerate the adoption of confidential computing. CCC defines, advances, and standardizes hardware-based Trusted Execution Environments (TEEs) that protect data and code while in use, complementing existing protections for data at rest and in transit. The consortium governs open source projects and specifications spanning attestation, trustworthy workload identity, and TEE runtimes.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/confidential-computing-consortium/refs/heads/main/apis.yml)
+**Areas:** Attestation · Confidential Computing · Hardware · Linux Foundation · Open Source · Privacy · Security · TEE · Trusted Execution Environment
 
-## Scope
+## Confidential Computing Consortium on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
-- **Classification:** Open Source
+Everything profiled for Confidential Computing Consortium is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/confidential-computing-consortium/](https://apis.io/providers/confidential-computing-consortium/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (2)
 
-- Attestation, Confidential Computing, Hardware, Linux Foundation, Open Source, Privacy, Security, TEE, Trusted Execution Environment
+- [Confidential Computing Consortium Projects](https://apis.io/apis/confidential-computing-consortium/ccc-projects/) — A portfolio of open source projects governed by the Confidential Computing Consortium covering Trusted Execution Environment runtimes, remote attestation…
+- [Trustworthy Workload Identity (TWI) Specifications](https://apis.io/apis/confidential-computing-consortium/trustworthy-workload-identity/) — A working group and set of Internet Draft specifications under the Confidential Computing Consortium that define how confidential workloads establish,…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-03-16
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
-### Confidential Computing Consortium Projects
+Authentication, trust centre, and vulnerability disclosure.
 
-A portfolio of open source projects governed by the Confidential Computing Consortium covering Trusted Execution Environment runtimes, remote attestation services, trustworthy workload identity, and shared tooling for confidential computing across CPU, GPU, and accelerator vendors. Projects include hosted SDKs, attestation services, and reference implementations rather than a single REST API.
+- [Confidential Computing Consortium Domain Security](https://apis.io/security/confidential-computing-consortium/confidential-computing-consortium-domain-security/)
 
-**Human URL:** [https://confidentialcomputing.io/projects/](https://confidentialcomputing.io/projects/)
+#### Plans and pricing (1)
 
-#### Tags
+Published plans, tiers and prices.
 
-- Attestation, Confidential Computing, Open Source, TEE
+- [Confidential Computing Consortium Plans Pricing](https://apis.io/plans/confidential-computing-consortium/confidential-computing-consortium-plans-pricing/)
 
-#### Properties
+#### Rate limits (1)
 
-- [Documentation](https://confidentialcomputing.io/projects/)
-- [GitHub](https://github.com/confidential-computing)
+Published request limits.
 
-#### Features
+- [Confidential Computing Consortium Rate Limits](https://apis.io/rate-limits/confidential-computing-consortium/confidential-computing-consortium-rate-limits/)
 
-- TEE Runtimes
-- Remote Attestation
-- Workload Identity
-- Hardware Security
-- Open Source Governance
+#### FinOps (1)
 
-#### Use Cases
+What the API costs to run, by operation.
 
-- Protect AI/ML training and inference data in use
-- Run regulated workloads in untrusted clouds
-- Establish verifiable identity for cloud workloads
-- Build privacy-preserving multi-party computation
-- Standardize cross-vendor TEE attestation flows
+- [Confidential Computing Consortium Finops](https://apis.io/finops/confidential-computing-consortium/confidential-computing-consortium-finops/)
 
-### Trustworthy Workload Identity (TWI) Specifications
+## Where to find this API
 
-A working group and set of Internet Draft specifications under the Confidential Computing Consortium that define how confidential workloads establish, prove, and consume identity using remote attestation evidence. TWI work intersects with the IETF RATS (Remote Attestation Procedures) and WIMSE (Workload Identity in a Multi-System Environment) groups, providing the foundation for attested, portable workload identity.
-
-**Human URL:** [https://github.com/confidential-computing/twi](https://github.com/confidential-computing/twi)
-
-#### Tags
-
-- Attestation, IETF, Specifications, Workload Identity
-
-#### Properties
-
-- [Documentation](https://github.com/confidential-computing/twi)
-- [GitHub](https://github.com/confidential-computing/twi)
-- [Related: TWI-RATS](https://github.com/confidential-computing/twi-rats)
-- [Related: TWI-WIMSE](https://github.com/confidential-computing/twi-wimse)
-
-#### Features
-
-- Workload Identity Standards
-- Remote Attestation Mappings
-- IETF Drafts
-
-#### Use Cases
-
-- Define identity for confidential workloads
-- Bind workload identity to hardware attestation
-- Interoperate across cloud providers and hardware vendors
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://confidentialcomputing.io/)
-- [Documentation](https://confidentialcomputing.io/resources/)
-- [Projects](https://confidentialcomputing.io/projects/)
+- [Documentation](https://confidentialcomputing.io/resources/white-papers-reports/)
+- [Pricing](https://confidentialcomputing.io/join/)
+- [Sign up](https://confidentialcomputing.io/join/)
+- [Support](https://confidentialcomputing.io/get-involved/contact-us/)
+- [Blog](https://confidentialcomputing.io/blog/)
+- [Terms of service](https://www.linuxfoundation.org/legal/terms)
+- [Privacy policy](https://www.linuxfoundation.org/legal/privacy-policy)
 - [GitHub](https://github.com/confidential-computing)
-- [Glossary](https://github.com/confidential-computing/glossary)
-- [Governance](https://github.com/confidential-computing/governance)
-- [Mailing Lists](https://lists.confidentialcomputing.io/)
-- [Blog](https://confidentialcomputing.io/news/)
-- [Events](https://confidentialcomputing.io/events/)
-- [Membership](https://confidentialcomputing.io/membership/)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 30.0** — thin · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** info@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 65.2 |
+| Contract quality | 0.0 |
+| Contract governance | 33.3 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 76.3 |
+
+**Agent readiness 7.6** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | yes |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/confidential-computing-consortium/](https://apis.io/providers/confidential-computing-consortium/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Confidential Computing Consortium: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/confidential-computing-consortium/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
