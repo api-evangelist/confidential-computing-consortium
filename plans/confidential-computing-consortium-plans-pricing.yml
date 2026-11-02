@@ -1,0 +1,109 @@
+specification: API Commons Plans
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/Plans
+provider: Confidential Computing Consortium
+providerId: confidential-computing-consortium
+generated: '2026-09-05'
+method: searched
+source: https://confidentialcomputing.io/join/
+created: '2026-05-04'
+modified: '2026-09-05'
+plan_count: 4
+plan_scope: membership
+api_plan_count: 0
+description: >-
+  The Confidential Computing Consortium publishes no API access plans — it operates no metered,
+  priced API. What it does publish, verbatim on https://confidentialcomputing.io/join/, is a
+  membership dues schedule for joining the consortium itself. Those tiers are recorded below as
+  the provider's real published pricing; they buy governance participation, not API quota. This
+  file replaces a 2026-05-04 bulk-sweep scaffold that asserted Free/Professional/Enterprise API
+  tiers with invented request quotas and rate limits the CCC has never published.
+notes: >-
+  All member organizations must also be Linux Foundation members. General membership dues are
+  banded by consolidated employee headcount.
+plans:
+  - id: confidential-computing-consortium-premier
+    name: Premier
+    type: paid
+    price: '60000.00'
+    currency: USD
+    billingPeriod: year
+    description: Governing Board seat, voting TAC seat, member logo featured on the website,
+      job-board postings.
+    source: https://confidentialcomputing.io/join/
+  - id: confidential-computing-consortium-general
+    name: General
+    type: paid
+    price_min: '5000.00'
+    price_max: '30000.00'
+    currency: USD
+    billingPeriod: year
+    description: >-
+      Banded by consolidated employee headcount — 5,000+ employees $30,000; 2,000-4,999 $25,000;
+      500-1,999 $20,000; 100-499 $10,000; 99 and below $5,000. Eligible to run for a Governing
+      Board Representative Seat; member logo featured; job-board postings.
+    tiers:
+      - employees: '5000+'
+        price: '30000.00'
+      - employees: '2000-4999'
+        price: '25000.00'
+      - employees: '500-1999'
+        price: '20000.00'
+      - employees: '100-499'
+        price: '10000.00'
+      - employees: '0-99'
+        price: '5000.00'
+    source: https://confidentialcomputing.io/join/
+  - id: confidential-computing-consortium-startup
+    name: Start-Up
+    type: free
+    price: '0.00'
+    currency: USD
+    billingPeriod: year
+    description: 99 employees and below — $0 for the first 12 months. Eligible to run for a
+      Governing Board Representative Seat; member logo featured; job-board postings.
+    source: https://confidentialcomputing.io/join/
+  - id: confidential-computing-consortium-associate
+    name: Academic / Associate
+    type: free
+    price: '0.00'
+    currency: USD
+    billingPeriod: year
+    description: $0/year for pre-approved non-profits, open source projects, and government
+      entities. Member logo featured; job-board postings.
+    source: https://confidentialcomputing.io/join/
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
+x-canonical:
+  generated: '2026-11-01'
+  vocabulary: engine/economics/plans-canonical.yml
+  models:
+  - free
+  - subscription
+  units: []
+  plans:
+  - name: Premier
+    access: paid
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: General
+    access: paid
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Start-Up
+    access: free
+    model: free
+    model_how: derived
+    units: []
+    periods: []
+  - name: Academic / Associate
+    access: free
+    model: free
+    model_how: derived
+    units: []
+    periods: []
